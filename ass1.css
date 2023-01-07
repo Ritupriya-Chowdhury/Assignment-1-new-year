@@ -1,0 +1,63 @@
+*{
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+/*  Styles For Banner */
+.Banner{
+    display: flex;
+    
+    background-color: rgb(187, 187, 252);
+    text-align: left;
+    margin:30px 50px;
+    
+    max-width: 1500px;
+    max-height: 700px;
+    
+    
+}
+/* Styles For Main part */
+.main-part{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 180px;
+    padding-right: 60px;
+    
+    
+    
+}
+.main-part-title{
+    color: #151414;
+    font-weight: 600;
+    width: 500px;
+    margin-bottom: 20px;
+    font-size: 55px;
+   
+   
+
+}
+.main-part-des{
+    color: #444343;
+    font-weight: 400;
+    font-size: 15px;
+    width: 300px;
+    margin-bottom: 30px;
+
+}
+.btn{
+    height: 60px;
+    border-radius: 10px;
+    background-color: #fd6e0a;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 35px;
+    color: rgb(247, 237, 237);
+}
+/* Styles For Image part */
+.Img-part{
+   
+    margin-top: 80px;
+   width: 700px;
+   
+
+}
