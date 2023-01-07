@@ -66,7 +66,7 @@
 /*  Styles For Failure Part */
 .my-failure-part{
     display: flex;
-    margin: 50px 100px;
+    margin: 50px 200px;
 
     padding: 100px,80px ;
     background-color:  #f5decb;
@@ -91,7 +91,7 @@
 
 }
 /*  Styles For  Failure List Of Failure Description Part */
-.failuer-list{
+.failure-list{
     color: #444343;
 
 }
@@ -100,7 +100,7 @@
     
     padding: 100px,80px ;
     background-color: #f5decb;
-    margin: 50px 100px;
+    margin: 50px 200px;
    
 }
 .my-plan-title{
@@ -115,7 +115,7 @@
 }
 /* Styles for My Plans Items Of My Plans Part */
 .my-plan-item{
- padding: 50px 80px
+ padding: 50px 50px
 }
 
 .IMG-3{
@@ -125,18 +125,18 @@
 .IMG-4{
     width: 93px;
     height: 93px;
-    margin-left: 50px;
+    margin-left: 68px;
 }
 .my-plan-it{
     font-weight: 700;
     font-size: 16px;
-    line-height: 33px;
+    line-height: 25px;
     text-align: center;
 }
 .my-plan-des{
     font-weight: 500;
     font-size: 14px;
-    line-height: 38px;
+    line-height: 25px;
     text-align: center;
     color: #444343;
     
@@ -144,16 +144,18 @@
 }
 /* Styles for Positive Mindset Part */
 .positive-mindset{
+    margin: 50px 200px;
     padding-top: 30px;
     padding-bottom: 80px;
     padding-left: 100px;
     background-image:url('Images/gradient3.png'), url(Images/watch1.png) ;
-    border-radius: 8px;
+    border-radius: 10px;
     background-position: left , right ;
     background-repeat: no-repeat;
    
 
 }
+/* Styles for call now button */
 .btn-call{
     height: 50px;
     border-radius: 10px;
@@ -164,6 +166,111 @@
     padding: 20px 35px;
 
 }
+/* Styles for motivation part */
+.motivation-part{
+    display: flex;
+    margin: 50px 200px;
+
+    padding: 100px,80px ;
+    background-color:  #f5decb;
+}
+/* Styles for motivational Image part */
+.motivational-img{
+    height: 400px;
+    width: 400px;
+    margin-left:50px
+}
+/* Styles for motivational description part */
+.motivation-des-part{
+    
+        margin-top: 70px ;
+        margin-left: 80px;
+        margin-right: 20px;
+
+}
+.motivation-title{
+    font-weight: 600;
+    font-size: 45px;
+
+}
+.motivation-des{
+    color: #444343;
+   font-weight: 400;
+   font-size: 20px; 
+
+}
+/* Styles for Footer Section  */
+.footer-section{
+    display: flex;
+    margin:50px 50px;
+    background-color: black;
+    max-width: 1500px;
+    max-height: 700px;
+    color: white;
+
+}
+/* Styles for Future part  */
+.future{
+    padding: 50px 100px;
+    margin-right: 60px ;
+    margin-left: 40px;
+    
+    
+}
+/* Styles for Future Title  */
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+/* Styles for Future Description  */
+.future-des{
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+/* Styles for contact section  */
+.contact-sec{
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+.contact-item{
+    padding-bottom: 8px ;
+    
+}
+
+
+.contact-icon{
+    display: flex;
+    
+}
+.con-i{
+    padding: 8px ;
+}
+/* Styles for Subscribe part  */
+.subscribe{
+   /* padding: 50px 100px;*/
+   padding: 70px 100px;
+    margin-right: 300px;
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.email{
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 80;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
 
 
 
