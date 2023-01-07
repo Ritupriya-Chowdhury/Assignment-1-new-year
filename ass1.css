@@ -8,7 +8,7 @@
     
     background-color: rgb(187, 187, 252);
     text-align: left;
-    margin:30px 50px;
+    margin:50px 50px;
     
     max-width: 1500px;
     max-height: 700px;
@@ -19,15 +19,16 @@
 .main-part{
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 180px;
-    padding-right: 60px;
+    padding-left: 100px;
+    padding-right: 100;
     
     
     
 }
+/* Styles For Tile Of Main part */
 .main-part-title{
     color: #151414;
-    font-weight: 600;
+    font-weight: 800;
     width: 500px;
     margin-bottom: 20px;
     font-size: 55px;
@@ -35,6 +36,7 @@
    
 
 }
+/* Styles For Description of Main part */
 .main-part-des{
     color: #444343;
     font-weight: 400;
@@ -43,6 +45,7 @@
     margin-bottom: 30px;
 
 }
+/* Styles For Button Of Main part */
 .btn{
     height: 60px;
     border-radius: 10px;
@@ -56,8 +59,111 @@
 /* Styles For Image part */
 .Img-part{
    
-    margin-top: 80px;
-   width: 700px;
+    margin-top: 100px;
+    width: 700px;
+   }
+
+/*  Styles For Failure Part */
+.my-failure-part{
+    display: flex;
+    margin: 50px 100px;
+
+    padding: 100px,80px ;
+    background-color:  #f5decb;
+}
+/*  Styles For  Failure Description Part */
+.failure-des-part{
+    margin-top: 50px ;
+    margin-right: 50px;
+    
+
+}
+/*  Styles For  Failure Title Of Failure Description Part */
+.my-failure-title{
+    font-weight: 600;
+    font-size: 30px;
+}
+/*  Styles For  Failure Description Of Failure Description Part */
+.failure-des{
+   color: #444343;
+   font-weight: 400;
+   font-size: 16px;  
+
+}
+/*  Styles For  Failure List Of Failure Description Part */
+.failuer-list{
+    color: #444343;
+
+}
+/* Styles for My Plans Part */
+.plans{
+    
+    padding: 100px,80px ;
+    background-color: #f5decb;
+    margin: 50px 100px;
+   
+}
+.my-plan-title{
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.my-plan-part{
+    display:flex
+
+}
+/* Styles for My Plans Items Of My Plans Part */
+.my-plan-item{
+ padding: 50px 80px
+}
+
+.IMG-3{
+    width: 93px;
+    height: 93px;
+}
+.IMG-4{
+    width: 93px;
+    height: 93px;
+    margin-left: 50px;
+}
+.my-plan-it{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+}
+.my-plan-des{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    color: #444343;
+    
+    
+}
+/* Styles for Positive Mindset Part */
+.positive-mindset{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    background-image:url('Images/gradient3.png'), url(Images/watch1.png) ;
+    border-radius: 8px;
+    background-position: left , right ;
+    background-repeat: no-repeat;
    
 
 }
+.btn-call{
+    height: 50px;
+    border-radius: 10px;
+    color: #fd6e0a;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 35px;
+
+}
+
+
+
